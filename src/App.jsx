@@ -43,7 +43,7 @@ function App() {
 
     return (
         <>
-            <div className="flex flex-col items-center justify-start bg-slate-600 min-h-[80vh] p-5 md:w-[60%] ml-auto mr-auto mt-[5%] rounded-[20px] shadow-2xl">
+            <div className="flex flex-col items-center justify-start bg-slate-600 min-h-[80vh] p-5 md:w-[60%] ml-auto mr-auto mt-[5%] md:rounded-[20px]  shadow-2xl">
                 <NewTodoForm onSubmit={addTodo} />
 
                 <div className="md:w-[60%] w-[80%] mt-2 transition-all">
